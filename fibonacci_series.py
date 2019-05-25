@@ -1,11 +1,11 @@
-p = 0
+n = 0
 m = 1
 r = 0
 z = int(raw_input("how many fibonacci numbers you want? "))
 while(r < z):
-    print p
-    p = p + m
-    (p,m) = (m,p)
+    print n
+    n = n + m
+    (n,m) = (m,n)
     r = r + 1
 
 
